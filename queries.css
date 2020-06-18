@@ -1,0 +1,295 @@
+
+/*from big tablets to 1200px widths smaller than pixel row*/
+
+@media only screen and (max-width:1200px){
+     .ujima-text-box{
+   
+    width:100%;
+         padding-left: 1em;
+    }
+    
+    .main-nav{margin-left: 5em;}
+    
+ 
+        /*grid-template-rows:300px;*/
+    
+    
+    .main-text{
+        column-count: 3;
+    }
+}   
+
+
+                         /*--putting Store grid in comments--*/
+
+
+
+
+
+
+
+
+
+
+
+
+/*small tablet to big tablet from 768px to 1023*/
+@media only screen and (max-width:1023px){
+   
+        .ujima-text-box{
+         width:100%;
+         padding-left: 1em;
+    }
+    
+    
+    
+        .header{
+            width:100%;
+            background-image:linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url(sun540792355.jpg);
+            height:100vh;
+            background-size:cover;
+            background-position: center;
+            background-attachment: fixed;
+
+            }
+
+
+    
+    .about-box>p{
+        object-position: center
+              
+    }
+    
+    .ico-text{
+      text-align: center;
+        margin:0 auto ;
+        width: auto;
+    }
+       /*flexible blog layout*/
+    
+
+    
+    
+    
+.main-text{
+    grid-column-start:2;
+    grid-column-end: 11;
+    font-size:60%;
+    background-color: #FEF5E7;
+    padding:30px;
+    column-count: 2;
+    
+  
+        }
+    
+    
+    
+.other-blogs{
+    font-size:80%;
+    background-color:#FEF9E7;
+    grid-column-start:1;
+    grid-column-end:12;
+    grid-row-start: 8;
+    grid-row-end;12;
+ 
+    
+        
+    }  
+    
+    
+    
+    
+    
+    
+    
+        }
+
+   
+                /**/
+
+      
+      
+              /**/
+
+    
+  
+
+
+
+
+/*Small phones to tablets and 
+I pad in land scape view,481px to 767px*/
+
+@media only screen and (max-width:767px){
+
+    .blog-container p{padding-left: 1.5em;}
+    .blog-container p{padding-right: 1.5em;}
+   
+       
+    
+     .about-wrap>div{
+           display: flex;
+           flex-direction: column;
+           flex-basis: auto;
+           justify-content: space-between;
+        
+           }
+    
+    
+      .ico-text{
+       text-align: center;
+        margin:0 auto ;
+        width: auto;
+    }
+
+    
+    
+    main-text{
+        column-count: 2;
+    }
+  
+    
+     .main-text{
+        column-count: 1;
+    }
+    
+    
+    
+    
+}
+    
+  
+ 
+
+
+    
+    
+
+
+
+
+
+
+
+/*Small phones from 0 to 480px*/
+
+@media only screen and (max-width:480px){
+ 
+ 
+  /*--Text--*/
+    
+    
+    
+    .banner-text-1{
+        font-size: 120%;
+    }
+    
+    
+    
+    
+      /*--header--*/
+    
+    .header{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url(sun540792355.jpg);
+    height:100vh;
+       
+    background-size:cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: block;
+    
+    }
+    
+    .main-text{
+        column-count: 1;
+    }
+    
+ 
+    
+    
+    
+.ico-text{display: block;
+          margin-top: 10px auto auto auto;
+          text-align:center;
+          font-size:75%;
+          width: auto;
+          font-size:70%;
+          color:#D35400;
+          }
+    
+    .about-ico{
+        display: block;
+         margin-top: 10px auto auto auto;
+         text-align:center;
+        
+    }
+    
+  
+    
+    .ico-text p{
+        
+        align-content: center;
+    }
+ 
+   /*--blog container--*/
+ 
+.blog-container{display:flex;
+    flex-direction: column;
+ 
+   
+}
+
+    P{
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+    .other-blogs{
+        padding-left: auto;
+        padding-right: auto;
+    }
+    
+    /* .main-text{
+    grid-column-start:1;
+    grid-column-end: 10;
+    font-size:70%;
+    background-color: #FEF5E7;
+    Padding:30px;
+        }                   */
+    
+    
+    
+    
+ 
+ 
+.row{max-width: 100%;}
+ 
+ h1{margin:0;
+    color:#D35400;
+    font-size:50%;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    word-spacing: 4px;
+    margin-bottom: 50px; 
+}
+ 
+
+ 
+ .about-section{display: flex;
+     flex-flow: column;
+     justify-content: center;
+     align-content: center;
+
+
+}
+    
+    
+ 
+
+    
+
+    
+    
+   
+
+}
